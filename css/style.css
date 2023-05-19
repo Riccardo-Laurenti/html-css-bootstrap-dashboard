@@ -1,0 +1,41 @@
+/* --- WRAPPER --- */
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- UP CONTENT --- */
+
+.up-content {
+    flex: 1 1 auto;
+    background-color: grey;
+    overflow: ;
+    display: flex;
+}
+
+/* --- SIDEBAR --- */
+
+.sidebar {
+    background-color: black;
+    flex: 0 0 250px;
+    padding-bottom: 16px;
+}
+
+
+/* --- MAIN --- */
+
+main {
+    background-color: #24282c;
+    flex: 1 1 auto;
+    overflow: ; 
+}
+
+
+
+#my-head-section {
+    background-color: blue;
+    height: 100px; 
+    width: 100%;
+}
