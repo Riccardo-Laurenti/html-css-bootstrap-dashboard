@@ -48,7 +48,7 @@ main {
 
 #my-head-section {
     background-color: rgb(63, 113, 250);
-    height: 130px; 
+    height: ; 
     width: 100%;
     color: white;
 }
@@ -88,4 +88,28 @@ main {
     .sidebar {
         flex-basis: 16%;
     }
+
+
+    /* --- MAIN --> MY HEAD SECTION  --- */
+    .d-flex {
+        flex-direction: column;
+        
+    }
+
+
+
+    .badge-head-sec {
+        order: 2;
+    }
+
+
+    .badge-center {
+        order : 3;
+    }
+
+    
+    .badge-right {
+        order : 1;
+    }
+    
 }
