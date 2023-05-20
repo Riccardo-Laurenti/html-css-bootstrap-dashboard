@@ -3,11 +3,13 @@ header a {
     color: #5a5a5a;
 }
 
+header {
+  height: 70px;
+}
 
 /* --- WRAPPER --- */
 
 .wrapper {
-    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -17,8 +19,9 @@ header a {
 .up-content {
     flex: 1 1 auto;
     background-color: grey;
-    overflow: ;
+    overflow: auto;
     display: flex;
+    height: calc(100vh - 70px);
 }
 
 /* --- SIDEBAR --- */
@@ -42,6 +45,26 @@ main {
 
 #my-head-section {
     background-color: blue;
-    height: 100px; 
+    height: 130px; 
     width: 100%;
+}
+
+
+
+/* --- ******* RESPONSIVE --- ******/
+
+@media (max-width: 576px) {
+
+
+    /* --- LIST NONE HEADER --- */
+
+    .my-h-d-n {
+       display: none;
+    }
+
+    /* ---SIDEBAR  --- */
+    
+    .sidebar {
+        flex-basis: 16%;
+    }
 }
