@@ -3,6 +3,9 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
 
 /* --- HEADER--- */
 
@@ -10,9 +13,12 @@ header a {
     color: #5a5a5a;
 }
 
+
 header {
   height: 70px;
 }
+
+
 
 /* --- WRAPPER --- */
 
@@ -35,8 +41,12 @@ header {
 
 .sidebar {
     background-color: black;
-    flex: 0 0 250px;
+    flex: 0 0 146px;
     padding-bottom: 16px;
+}
+
+.sidebar-list ul {
+    margin-left: -18px;
 }
 
 
@@ -149,7 +159,7 @@ main {
         margin-left: 6px;
     }
 
-    
+
     
     .badge-right {
         margin-left: 6px;
