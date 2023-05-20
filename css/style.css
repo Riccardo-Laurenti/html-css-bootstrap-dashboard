@@ -51,7 +51,7 @@ main {
 
 
 
-/* --- ******* RESPONSIVE --- ******/
+/* --- ******* RESPONSIVE MOBILE *********--- */
 
 @media (max-width: 576px) {
 
@@ -63,7 +63,7 @@ main {
     }
 
     /* ---SIDEBAR  --- */
-    
+
     .sidebar {
         flex-basis: 16%;
     }
