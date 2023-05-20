@@ -112,7 +112,6 @@ main {
     }
 
 
-
     .badge-head-sec {
         order: 2;
     }
@@ -130,6 +129,31 @@ main {
 
     .res-none {
         display: none;
+    }
+
+
+
+    .badge-head-sec {
+        margin-left: -10px;
+        margin-bottom: 14px;
+    }
+    
+
+
+    .badge-head-sec .cl-mrg {
+        margin-left: 0px; 
+    }
+
+
+    .badge-center {
+        margin-left: 6px;
+    }
+
+    
+    
+    .badge-right {
+        margin-left: 6px;
+        margin-bottom: 20px
     }
 }
 
