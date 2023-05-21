@@ -40,9 +40,10 @@ header {
 /* --- SIDEBAR --- */
 
 .sidebar {
-    background-color: black;
+    background-color: #14253b;
     flex: 0 0 144px;
     padding-bottom: 16px;
+    background-image: url(../img/sidebar-bg.png);
 }
 
 
@@ -218,7 +219,7 @@ main {
         display: none
     }
 
-    
+
 }
 
 
