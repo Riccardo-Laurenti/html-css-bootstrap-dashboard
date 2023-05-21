@@ -139,6 +139,14 @@ main {
 }
 
 
+
+
+
+
+.content-accordion {
+    border: 1px solid lightgrey;
+}
+
 /* --- ******* RESPONSIVE MOBILE *********--- */
 
 @media (max-width: 576px) {
