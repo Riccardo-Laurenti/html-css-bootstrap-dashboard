@@ -134,13 +134,27 @@ main {
     border: 1px solid lightgrey;
 }
 
+
 .badge-right {
     margin-right: 130px;
 }
 
+/* MAIN -->  MY ROW CARD */
 
+.task-red {
+    display: inline-block;
+    background: #ff6a00;
+    width: 40px;
+    height: 26px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 20px;
+}
 
-
+.task-txt {
+    vertical-align: middle;
+}
 
 
 .content-accordion {
