@@ -41,14 +41,56 @@ header {
 
 .sidebar {
     background-color: black;
-    flex: 0 0 146px;
+    flex: 0 0 144px;
     padding-bottom: 16px;
 }
 
+
 .sidebar-list ul {
-    margin-left: -18px;
+    margin-left: -5px;
+    padding-top: 24px;
 }
 
+
+.sidebar-list a {
+    color: white;
+}
+
+
+.bottom-list-side a {
+    color: white;
+}
+
+
+.sidebar-list .side-a {
+    padding-left: 7px;
+}
+
+
+
+.sidebar-list .side-b {
+    padding-left: 11px;
+}
+
+
+
+.sidebar-list .side-c {
+    padding-left: 5px;
+}
+
+
+.calc-side-bar {
+    height: calc(100% - 30px);
+}
+
+.bottom-list-side {
+    height: 30px;
+    padding-left: 24px;
+}
+
+.bottom-list-sp {
+    padding-left: 8px;
+}
 
 /* --- MAIN --- */
 
@@ -165,6 +207,18 @@ main {
         margin-left: 6px;
         margin-bottom: 20px
     }
+
+
+    .sidebar-list .side-a, .side-b, .side-c {
+        display: none
+    }
+
+
+    .bottom-list-side .bottom-list-sp {
+        display: none
+    }
+
+    
 }
 
 
