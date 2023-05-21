@@ -31,7 +31,6 @@ header {
 
 .up-content {
     flex: 1 1 auto;
-    background-color: grey;
     overflow: auto;
     display: flex;
     height: calc(100vh - 70px);
@@ -96,7 +95,7 @@ header {
 /* --- MAIN --- */
 
 main {
-    background-color: #24282c;
+    background-color: #fdfdfd;
     flex: 1 1 auto;
     overflow: ; 
 }
