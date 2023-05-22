@@ -257,6 +257,12 @@ td:first-child {
     }
 
 
+    .my-fl {
+        flex-basis: 100%;
+    }
+
+
+
 }
 
 
