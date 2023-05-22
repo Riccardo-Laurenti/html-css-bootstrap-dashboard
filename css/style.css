@@ -295,7 +295,11 @@ td:first-child {
     }
 
 
+    .m {
+        display: none;
+    }
 
+    
 }
 
 
