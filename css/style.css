@@ -177,6 +177,39 @@ td:first-child {
 
 
 
+/* --- ******* RESPONSIVE TABLET *********--- */
+
+@media (max-width: 768px) {
+  
+    .my-fl {
+        flex-basis: 100%;
+    }
+    
+    .sidebar-list .side-a, .side-b, .side-c {
+        display: none
+    }
+
+
+    .bottom-list-side .bottom-list-sp {
+        display: none
+    }
+
+    .sidebar {
+        flex-basis: 10%
+    }
+
+    .res-none {
+        display: none;
+    }
+
+    .my-h-d-n {
+        display: none;
+    }
+
+}
+
+
+
 /* --- ******* RESPONSIVE MOBILE *********--- */
 
 @media (max-width: 576px) {
@@ -264,6 +297,8 @@ td:first-child {
 
 
 }
+
+
 
 
 
