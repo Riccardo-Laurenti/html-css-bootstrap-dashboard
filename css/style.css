@@ -18,14 +18,9 @@ header {
   height: 70px;
 }
 
-.my-background {
-    background: #3993eb;
-}
 
-.my-bord {
-    border: 1px solid lightgrey;
-    border-radius: 4px;
-}
+
+
 
 /* --- WRAPPER --- */
 
@@ -162,9 +157,25 @@ main {
 }
 
 
+
+.my-background {
+    background: #3993eb;
+}
+
+
+.my-bord {
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    padding-left: 34px;
+}
+
+
 td:first-child {
     width: 56%;
 }
+
+
+
 
 /* --- ******* RESPONSIVE MOBILE *********--- */
 
